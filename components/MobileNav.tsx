@@ -43,13 +43,6 @@ export function MobileNav() {
       >
         <nav className="flex flex-col p-6 space-y-4">
           <a
-            href="#services"
-            onClick={closeMenu}
-            className="text-base font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors py-2"
-          >
-            Services
-          </a>
-          <a
             href="#about"
             onClick={closeMenu}
             className="text-base font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors py-2"
@@ -57,11 +50,25 @@ export function MobileNav() {
             About
           </a>
           <a
+            href="#approach"
+            onClick={closeMenu}
+            className="text-base font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors py-2"
+          >
+            Approach
+          </a>
+          <a
             href="#work"
             onClick={closeMenu}
             className="text-base font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors py-2"
           >
-            Work
+            Impact
+          </a>
+          <a
+            href="#experience"
+            onClick={closeMenu}
+            className="text-base font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors py-2"
+          >
+            Experience
           </a>
           <a
             href="#contact"
